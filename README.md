@@ -55,7 +55,7 @@ npm install -g https://mirrors.cloud.tencent.com/npm/@anthropic-ai/claude-code/-
 
 可以关注我的公众号，行业第一手信息，都会发在文章中
 
-<img width="857" height="388" alt="图片" src="https://github.com/user-attachments/assets/35888efd-2e02-4e71-bb09-8dc97020b579" />
+<img width="932" height="380" alt="图片" src="https://github.com/user-attachments/assets/1e0b00bc-d44b-4466-a488-703933428b93" />
 
 
 ---
