@@ -29,11 +29,17 @@
 > [!IMPORTANT]
 > **这是一个针对 `@anthropic-ai/claude-code` 2.1.88 版本的源码整理与重建项目。**
 > 该版本发布到 npm 时附带了可还原源码的 source map。本项目基于 `sources` 和 `sourcesContent` 将其还原为可读的源码目录，旨在研究 Claude Code 的 CLI 架构、命令系统及 MCP 实现。
+> 
+> 从 cli.js.map 还原后，一共有 70w 行代码
+> <img width="794" height="387" alt="图片" src="https://github.com/user-attachments/assets/ab30578b-d6d2-440c-abde-ddf09e5d42de" />
 
 
 ## 🚀 快速安装 (镜像源)
 
 背景：2026.03.31 claude code 上 npm 上传了包含 claude code 源码的 `cli.js.map` 文件
+
+<img width="1497" height="242" alt="图片" src="https://github.com/user-attachments/assets/b1a01c8d-f14c-46d5-b6cb-4f5b4f90c9ab" />
+
 
 由于 2.1.88 版本已从[官方 npm](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.88?activeTab=code) 下架，直接使用 `npm install @anthropic-ai/claude-code@2.1.88` 会报错，你可以通过腾讯缓存镜像进行安装：
 
@@ -45,6 +51,12 @@ npm install -g https://mirrors.cloud.tencent.com/npm/@anthropic-ai/claude-code/-
 
 
 > 手慢无，不知道腾讯云的镜像缓存什么时候也没了
+
+
+可以关注我的公众号，行业第一手信息，都会发在文章中
+
+<img width="932" height="380" alt="图片" src="https://github.com/user-attachments/assets/1e0b00bc-d44b-4466-a488-703933428b93" />
+
 
 ---
 
